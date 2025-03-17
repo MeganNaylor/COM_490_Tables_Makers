@@ -6,8 +6,8 @@ using UnityEngine.EventSystems;
 public class GrabObject : MonoBehaviour, IDragHandler
 {
     public GameObject BuildSet;
-
     private RectTransform rectTransform;
+
     // Start is called before the first frame update
     void Start()
     {
